@@ -23,7 +23,12 @@ public class Main {
         // can only contain true or false
         boolean myBoolean = true;
 
-        //printing out to console
-        System.out.println(myVariable + 1);
+        // printing out to console
+//        System.out.println(myVariable + 1);
+
+        int myNumber = 12;
+        double result = (int) myNumber; //type casting from int -> double
+        System.out.println(result);
+
     }
 }
